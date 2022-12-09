@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title>RONCLOUD</title>
+    <script src="script.js"></script>
+    <title>Mealson Food</title>
 </head>
 <body>
     <header>
-        <a href="index.html" class="header-brand">roncloud</a>
+        <a href="index.html" class="header-brand"><img src="assets/Logo.jpg" alt="Logo" height="50"></a>
         <nav>
             <ul>
-                <li><a href="portfolio.html">Porfolio</a></li>
+                <li><a href="portfolio.html">Products</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -24,15 +25,88 @@
     <main>
         <section class="index-banner">
             <div class="vertical-center">
-                <h2>I AM A FREELANCE WEB DEVELOPER</h2>
+                <h2>Good Food <span>Better Taste!</span></h2>
                 <h1>
-                    With specialty in back-end development, functionality, 
-                    UX design and Search engine Optimization
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet reprehenderit maiores reiciendis accusantium? Tempore nemo, cumque nulla dignissimos placeat quos perspiciatis dolor, quidem ipsam corporis a similique cum, mollitia eligendi.
                 </h1>
             </div>
         </section>
+
+        <section class="head-content">
+            <h2>Made For <span>You!</span></h2>
+            <h1>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet reprehenderit maiores reiciendis accusantium? Tempore nemo, cumque nulla dignissimos placeat quos perspiciatis dolor, quidem ipsam corporis a similique cum, mollitia eligendi.
+            </h1>
+        </section>
         
-        <div class="wrapper">
+        <!-- Slider -->
+        <!-- Container for the image gallery -->
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+                <img src="assets/001.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+                <img src="assets/002.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+                <img src="assets/003.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+                <img src="assets/004.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+                <img src="assets/005.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+                <img src="assets/006.jpg" style="width:100%">
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <!-- Image text -->
+            <div class="caption-container">
+            <p id="caption"></p>
+            </div>
+        
+            <!-- Thumbnail images -->
+            <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="assets/001.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/002.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/003.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/004.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/005.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/006.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+            </div>
+            </div>
+        </div>
+        
+        <!-- <div class="wrapper">
             <section class="index-links">
                 <a href="cases.html">
                     <div class="index-boxlink-square">
@@ -65,7 +139,7 @@
                     </div>
                 </a>
             </section>
-        </div>
+        </div> -->
     </main>
 
     <footer>
@@ -76,13 +150,14 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-        <ul class="footer-links-cases">
+
+        <!-- <ul class="footer-links-cases">
             <li><p>Latest Cases </p></li>
             <li><a href="#">MALING SHAOLIN - WEB DEVELOPMENT</a></li>
             <li><a href="#">EXCELLENTO - WEB DEVELOPMENT, SEO</a></li>
             <li><a href="#">RONCLOUD - YOUTUBE CHANNEL</a></li>
             <li><a href="#">WELTEC - VIDEO PRODUCTION</a></li>
-        </ul>
+        </ul> -->
         <div class="footer-sm">
             <a href="#">
                 <img src="assets/facebook.png" alt="facebook icon" />
